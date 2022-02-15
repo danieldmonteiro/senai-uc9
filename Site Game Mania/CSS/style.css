@@ -53,13 +53,8 @@ header{
     width: 1920px;
     background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-}
-.texto-e-mail{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
 }
 label{
     color: white;
@@ -71,6 +66,13 @@ input{
     color:black;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
+}
+button{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: red;
 }
 footer{
     background-color: red;
