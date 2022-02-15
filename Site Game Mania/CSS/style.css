@@ -60,9 +60,15 @@ header{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
+}
+label{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
     font-weight: bold;
 }
-form{
+input{
+    color:black;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
 }
