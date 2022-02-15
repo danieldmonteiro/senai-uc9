@@ -21,14 +21,9 @@ header{
     width: 1920px;
     height: 101px;
     background-color: red;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.menu-principal{
-    display: flex;
-    justify-content: space-between;
 }
 .lista-menu a{
     color: white;
@@ -43,37 +38,41 @@ header{
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 .texto-banner{
     color: white;
-    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 150px;
+    font-size: 100px;
     font-style: italic;
     font-weight: bold;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
+    padding-top: 120px;
 }
 .e-mail{
     height: 111px;
     width: 1920px;
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .texto-e-mail{
     color: white;
-    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: bold;
-    margin: auto;
-    justify-content: center;
-    text-align: left;
+}
+form{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
 }
 footer{
     background-color: red;
     width: 1920px;
     height: 642px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
 .contato h2{
     color: black;
@@ -81,6 +80,7 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 81px;
     font-weight: bold;
+    margin-bottom: 45px;
 }
 .contato p{
     color: black;
@@ -94,4 +94,5 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 81px;
     font-weight: bold;
+    margin-bottom: 80px;
 }
