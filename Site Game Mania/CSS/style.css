@@ -73,6 +73,8 @@ button{
     font-size: 40px;
     font-weight: bold;
     background-color: red;
+    border: none;
+    padding: 2px;
 }
 footer{
     background-color: red;
