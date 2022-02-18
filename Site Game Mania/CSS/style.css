@@ -122,3 +122,29 @@ footer{
 .menu-ativo{
     display: flex;
 }
+.login{
+    width: 1920px;
+    height: 1000px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-principal{
+    display: flex;
+    flex-direction: column;
+}
+.login-principal h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.login-principal p{
+    margin-top: 40px;
+}
+.botao-login{
+    background-color: black;
+    margin-top: 100px;
+}
