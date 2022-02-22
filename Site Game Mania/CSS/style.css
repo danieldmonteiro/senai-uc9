@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container-grid{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
 header{
     background-color: black;
     height: 285px;
@@ -21,16 +26,16 @@ header{
     width: 1920px;
     height: 101px;
     background-color: red;
-    display: flex;
+   /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 .menu-principal{
-    width: 1140px;
+    width: 1600px;
     height: auto;
-    display: flex;
+    /*display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;*/
 }
 .lista-menu a{
     color: white;
@@ -39,9 +44,15 @@ header{
     font-size: 48px;
     font-weight: bold;
 }
+.lista-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .banner{
     height: 1125px;
     width: 1920px;
+    margin-top: 100px;
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
