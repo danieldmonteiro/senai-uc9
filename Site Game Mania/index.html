@@ -13,7 +13,7 @@
             <a href=""><img src="img/logo.jpeg" height="284" width="563" alt="Logo do Site"></a>
         </div>
     <div class="menu">
-        <div class="menu-principal container-grid">
+        <div class="menu-principal container-grid posicionamento-header">
                 <nav id="menu" class="lista-menu">
                     <a href="">Início</a>
                     <a href="">Games</a>
@@ -21,8 +21,7 @@
                     <a href="">Promoções</a>
                     <a href="login.html">Login</a>
                 </nav>
-                <!--
-                    <a href="#" id="barras"><img class="barras " src="img/menubarra.svg" alt="Menu de Barras"></a>-->
+                <a href="#" onclick = "mostrarMenu()" id="barras"><img class="barras" src="img/menubarra.svg" alt="Menu de Barras"></a>
         </div>
     </div>
     </header>
@@ -33,7 +32,7 @@
     </section>
     <section class="e-mail">
                 <form action="">
-                    <label>Cadastre-se para receber ofertas e saber das novidades: &emsp;&emsp;<input id="campo-email" type="email" placeholder="Insira seu e-mail" required>
+                    <label>Cadastre-se para receber ofertas: &emsp;&emsp;</label><input id="campo-email" type="email" placeholder="Insira seu e-mail" required>
                     <button onclick="enviarEmail()" class="botao-cadastrar">Enviar</button>
                 </form>
     </section>
