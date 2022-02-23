@@ -61,6 +61,15 @@ header{
     font-weight: bold;
     padding-top: 120px;
 }
+#carrosel img{
+    display: none;
+    height: 1125px;
+    width: 1920px;
+    margin-top: 100px;
+}
+.banner-ativo{
+    display: flex;
+}
 .e-mail{
     height: 111px;
     width: 1920px;
@@ -194,6 +203,12 @@ footer{
         font-size: 40px;
         padding-top: 30px;
     }
+    #carrosel img{
+        height: 361px;
+        width: 768px;
+        margin-top: 38px;
+    }
+
     .e-mail{
         width: 768px;
         height: 46px;
@@ -263,6 +278,11 @@ footer{
     .texto-banner{
         font-size: 16px;
         padding-top: 30px;
+    }
+    #carrosel img{
+        height: 159px;
+        width: 320px;
+        margin-top: 38px;
     }
     .e-mail{
         width: 320px;
